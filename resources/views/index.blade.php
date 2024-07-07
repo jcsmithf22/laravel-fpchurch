@@ -1,5 +1,7 @@
 <x-default-layout>
-  <x-hero />
-  <x-header />
-  <x-quote />
+    <livewire:navigation hero="true" />
+    <x-hero/>
+    <x-header/>
+    <x-quote/>
+    <livewire:updates.list/>
 </x-default-layout>
