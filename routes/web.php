@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\UpdateController;
+use App\Http\Controllers\SermonController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/update/{id}', [UpdateController::class, 'show'])
@@ -27,6 +28,14 @@ Route::view('expectations', 'expectations')
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
+
+// you can create a temporary Route like this
+Route::get('/phpinfo', function () {
+    phpinfo();
+});
+Route::get('/dashboard/sermons', [SermonController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard.sermons');
 
 Route::view('profile', 'profile')
     ->middleware(['auth'])
