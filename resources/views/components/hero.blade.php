@@ -1,6 +1,6 @@
 <div>
     <div
-        class="relative isolate overflow-hidden h-screen flex flex-col justify-center"
+        class="relative isolate overflow-hidden h-screen flex flex-col justify-center bg-gray-900"
     >
         <img
             src="{{ asset("img/bible_resized.webp") }}"
