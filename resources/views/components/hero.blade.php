@@ -3,7 +3,7 @@
         class="relative isolate overflow-hidden h-screen flex flex-col justify-center"
     >
         <img
-            src="{{ asset("img/bible_resized.png") }}"
+            src="{{ asset("img/bible_resized.webp") }}"
             alt=""
             class="absolute inset-0 -z-10 h-full w-full object-cover"
             loading="eager"
