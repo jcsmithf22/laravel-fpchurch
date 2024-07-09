@@ -22,7 +22,15 @@ new class extends Component {
     {
         $validated = $this->validate();
 
+        dump($validated);
+
+        if($validated['end_date'] == '')
+        {
+            $validated['end_date'] = null;
+        }
+
         Update::create($validated);
+
 
         $this->getUpdates();
 

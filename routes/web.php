@@ -29,6 +29,9 @@ Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
+Route::view('sermons', 'sermons')
+    ->name('sermons');
+
 // you can create a temporary Route like this
 Route::get('/phpinfo', function () {
     phpinfo();

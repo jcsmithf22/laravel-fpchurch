@@ -18,7 +18,7 @@ new class extends Component {
     {
         $validated = $this->validate();
 
-        $validated['name'] = $this->sermon->store(path: "sermons");
+        $validated['name'] = $this->sermon->store("sermons", "public");
 
         Sermon::create($validated);
 

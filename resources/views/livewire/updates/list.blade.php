@@ -47,7 +47,7 @@ new class extends Component {
                     </div>
                     <div class="relative">
                         <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 dark:text-white">
-                            <a href="{{ route("update.show", [ "id" => $update->id ]) }}">
+                            <a wire:navigate href="{{ route("update.show", [ "id" => $update->id ]) }}">
                                 {{ $update->title }}
                             </a>
                         </h3>
