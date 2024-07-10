@@ -1,6 +1,10 @@
 {
+  "public/fonts/Figtree-VariableFont_wght.ttf": {
+    "file": "assets/Figtree-VariableFont_wght-CkXbWBDP.ttf",
+    "src": "public/fonts/Figtree-VariableFont_wght.ttf"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-BHMBB1oH.css",
+    "file": "assets/app-BnBhKuuo.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
