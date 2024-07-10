@@ -14,7 +14,7 @@
 {{--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>--}}
 {{--    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"--}}
 {{--          rel="stylesheet">--}}
-    <link rel="preload" href="{{ asset("fonts/Figtree-VariableFont_wght.ttf") }}" as="font" type="font/woff2" crossorigin>
+{{--    <link rel="preload" href="{{ asset("fonts/Figtree-VariableFont_wght.ttf") }}" as="font" type="font/woff2" crossorigin> --}}
 
     <!-- Scripts -->
     @livewireStyles
