@@ -6,21 +6,24 @@
         >
             <div class="pb-6">
                 <a
-                    href="/"
+                    wire:navigate
+                    href="{{ route('index') }}"
                     class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                 >Home</a
                 >
             </div>
             <div class="pb-6">
                 <a
-                    href="/visit/expect"
+                    wire:navigate
+                    href="{{ route('expectations') }}"
                     class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                 >What to expect</a
                 >
             </div>
             <div class="pb-6">
                 <a
-                    href="/visit/details"
+                    wire:navigate
+                    href="{{ route('details') }}"
                     class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                 >Location and Schedule</a
                 >
@@ -43,6 +46,7 @@
             </div>
             <div class="pb-6">
                 <a
+                    wire:navigate
                     href="{{ route('dashboard') }}"
                     class="text-sm leading-6 text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
                 >Dashboard</a
