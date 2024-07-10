@@ -17,10 +17,13 @@
     <link rel="preload" href="{{ asset("fonts/Figtree-VariableFont_wght.ttf") }}" as="font" type="font/woff2" crossorigin>
 
     <!-- Scripts -->
+    @livewireStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="font-sans antialiased dark:bg-gray-900">
 {{ $slot }}
+
+@livewireScriptConfig
 <x-footer/>
 </body>
 </html>
