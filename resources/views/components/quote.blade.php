@@ -11,7 +11,7 @@
     </div> -->
     <img
         class="absolute inset-0 h-full w-full object-cover saturate-0 brightness-75"
-        src="{{ asset('img/fence.jpg') }}"
+        src="{{ asset('img/fence.webp') }}"
         alt=""
     />
     <div class="absolute inset-0 bg-blue-950/70 mix-blend-multiply"></div>
